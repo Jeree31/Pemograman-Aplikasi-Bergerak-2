@@ -42,7 +42,7 @@ class _DetailScreenState extends State<DetailScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.movie.title),
+        title: Text(Widget.movie.title),
       ),
       body: Padding(
         padding: EdgeInsets.all(8.0),
@@ -66,7 +66,7 @@ class _DetailScreenState extends State<DetailScreen> {
               const SizedBox(
                 height: 10,
               ),
-              Text(widget.movie.overview),
+              Text(Widget.movie.overview),
               const SizedBox(
                 height: 10,
               ),
